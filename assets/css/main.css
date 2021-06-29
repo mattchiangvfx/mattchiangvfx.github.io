@@ -14,13 +14,13 @@
   }
 
 a:link {
-	color: rgb(0, 47, 100);
+	color: rgb(0, 64, 136);
 	background-color: transparent;
 	text-decoration: none;
 }
 
 a:visited {
-	color: rgb(0, 47, 100);
+	color: rgb(0, 64, 136);
     background-color: transparent;
     text-decoration: none;
 }
@@ -32,7 +32,7 @@ a:hover {
 }
 
 a:active {
-	color: rgb(0, 47, 100);
+	color: rgb(0, 64, 136);
 	background-color: transparent;
 	text-decoration: none;
 }
