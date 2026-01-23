@@ -2296,35 +2296,23 @@ input, select, textarea {
 	display: none !important;
 }
 
-/* Mobile - profile image between name and bio */
+/* Mobile - profile image full width */
 @media screen and (max-width: 736px) {
-	.row {
-		display: flex;
-		flex-direction: column;
-	}
-
-	#content {
-		order: 1;
-	}
-
 	#sidebar {
-		order: 2;
 		width: 100%;
-		max-width: 300px;
-		margin: 1.5em auto 1.5em auto;
+		max-width: 100%;
+			margin: 1.5em 0;
 	}
 
 	#sidebar .image {
 		max-width: 100%;
 		height: auto;
+		margin: 0 0 2em 0 !important;
 	}
 
 	#sidebar .image img {
-		max-height: 200px;
-	}
-
-	#content article h2 {
-		order: -2;
-		margin-bottom: 1.5em;
+		width: 100%;
+			height: auto;
+			max-height: none;
 	}
 }
