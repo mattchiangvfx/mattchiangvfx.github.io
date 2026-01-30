@@ -2305,6 +2305,9 @@ input, select, textarea {
 	}
 
 	#sidebar .image {
+		/* Ensure sidebar/profile image fills available width on small screens.
+		   Override .image.left { width: 25% } which would otherwise shrink it. */
+		width: 100% !important;
 		max-width: 100%;
 		height: auto !important;
 		margin: 0 0 2em 0 !important;
